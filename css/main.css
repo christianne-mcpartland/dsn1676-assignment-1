@@ -18,7 +18,8 @@ html {
 
 .img-flex {
     display: block;
-    width: 100%;
+    width: 33%;
+    float: left;
 }
 
 .title {
@@ -44,15 +45,43 @@ body {
 }
 
 .panel {
-    border-image: url("../images/panel-border.png");
-    border-width: 36px 36px 36px 36px; 
+    border-image: url("../images/panel-border.png") 36 36 36 36 stretch stretch;
 }
+
+.h-c {
+    width: 340px;
+    height: 60px;
+}
+
+
+    
 
 p {
     color: white;
     padding: 0;
     margin: 0;
 }
+
+.brown {
+    background-color: #6a3f0e;
+}
+
+li {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.reward {
+    text-align: center;
+}
+
+.number {
+    text-align: center;
+}
+
+backgroundgraphic {
+    background-image: url(../images/)
 
 
 
